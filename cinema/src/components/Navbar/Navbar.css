@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #fff;
+}
+
+.row{/* Use flexbox for alignment */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items to the right */
+}
+
+.row:first-child {
+    justify-content: flex-start; /* Align items to the left */
+    width: 25%;
+    padding-left: 100px;
+}
+
+.row:last-child {
+    justify-content: flex-end; /* Align items to the right */
+    width: 75%;
+}
+
+nav {
+    background-color: #fff; /* White background */
+    padding: 20px 100px 20px 20px; /* Adjust padding as needed */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align items to the right */
+}
+  
+nav a {
+    text-decoration: none;
+    text-transform: uppercase; /* Uppercase text */
+    color: #000; /* Black color */
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.logo{
+    width: 15vw;
+    
+}
