@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom"
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className="row">
+        <div className="rowNavbar">
             <img src="../cine-logo.png" alt="logo" className='logo'/>
         </div>
-        <div className="row">
+        <div className="rowNavbar">
             <nav>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/programmation'>Programmation</NavLink>

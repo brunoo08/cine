@@ -5,18 +5,18 @@
     background-color: #fff;
 }
 
-.row{/* Use flexbox for alignment */
+.rowNavbar{/* Use flexbox for alignment */
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Align items to the right */
 }
 
-.row:first-child {
+.rowNavbar:first-child {
     justify-content: flex-start; /* Align items to the left */
     width: 25%;
     padding-left: 100px;
 }
 
-.row:last-child {
+.rowNavbar:last-child {
     justify-content: flex-end; /* Align items to the right */
     width: 75%;
 }
