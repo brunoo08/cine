@@ -24,7 +24,7 @@ const Carousel = ({images}) => {
             <img
                 className="carousel-image"
                 src={images[currentImageIndex]}
-                alt="Carousel Image"
+                alt="Carousel"
             />
             <button className="carousel-button" onClick={goToNext}>
                 &gt;

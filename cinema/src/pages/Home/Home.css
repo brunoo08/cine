@@ -9,3 +9,25 @@ h2{
 .h2theaters{
     display: flex;
 }
+
+
+
+.ant-card {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+}
+
+.ant-card .ant-card-body{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.ant-card .ant-card-body .ant-btn{
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0%;
+}
